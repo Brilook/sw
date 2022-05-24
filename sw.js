@@ -1,3 +1,3 @@
 self.addEventListener('push', () => {
-    self.registraton.sendNotification('test message', {})
+    self.registraton.showNotification('test message', {})
 });

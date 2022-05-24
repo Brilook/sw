@@ -17,4 +17,4 @@ const sub = {
         "auth": "L8Uns0lUBhuLNNH1cghIXA"
     }
 }
-push.showNotification(sub, 'test message');
+push.sendNotification(sub, 'test message');
